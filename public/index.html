@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Personal portfolio showcasing projects, skills, and experience.">
+  <title>Your Name | Full-Stack Developer</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="container nav" aria-label="Main navigation">
+      <a class="logo" href="#home">YN<span>.</span></a>
+      <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+      <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero container">
+      <div class="hero-copy">
+        <p class="eyebrow">Hello, I'm</p>
+        <h1>Your Name</h1>
+        <h2>Full-Stack Developer</h2>
+        <p class="hero-text">I build accessible, reliable, and thoughtful web experiences using modern technologies.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#projects">View my work</a>
+          <a class="button secondary" href="#contact">Let's talk</a>
+        </div>
+      </div>
+      <div class="hero-card" aria-hidden="true"><div class="code-window"><span>&lt;/&gt;</span><p>turning ideas<br>into products.</p></div></div>
+    </section>
+
+    <section id="about" class="section container">
+      <p class="eyebrow">01 — About me</p>
+      <div class="section-grid"><h2>Developer with a passion for useful, beautiful software.</h2><p>I’m a developer who enjoys solving real problems with clean code and simple design. Replace this paragraph with your story, experience, and the kind of opportunities you’re looking for.</p></div>
+    </section>
+
+    <section id="skills" class="section section-muted"><div class="container"><p class="eyebrow">02 — Skills</p><div class="skills"><span>HTML5</span><span>CSS3</span><span>JavaScript</span><span>Node.js</span><span>MongoDB</span><span>REST APIs</span><span>Git & GitHub</span><span>Netlify</span></div></div></section>
+
+    <section id="projects" class="section container"><p class="eyebrow">03 — Selected work</p><div class="project-grid">
+      <article class="project-card"><div class="project-number">01</div><h3>Project One</h3><p>Describe your project, the problem it solves, and your contribution.</p><div class="tags"><span>HTML</span><span>Node.js</span><span>MongoDB</span></div><a href="#contact">View project →</a></article>
+      <article class="project-card"><div class="project-number">02</div><h3>Project Two</h3><p>Share an application that demonstrates your strongest technical skills.</p><div class="tags"><span>CSS</span><span>JavaScript</span><span>API</span></div><a href="#contact">View project →</a></article>
+      <article class="project-card"><div class="project-number">03</div><h3>Project Three</h3><p>Add a third project with a link to its live demo or source code.</p><div class="tags"><span>Full stack</span><span>Netlify</span></div><a href="#contact">View project →</a></article>
+    </div></section>
+
+    <section id="contact" class="section section-dark"><div class="container contact-layout"><div><p class="eyebrow">04 — Get in touch</p><h2>Have a project in mind?</h2><p>Send me a message and I’ll get back to you soon.</p></div><form id="contact-form"><label>Name<input name="name" required maxlength="80" autocomplete="name"></label><label>Email<input type="email" name="email" required maxlength="120" autocomplete="email"></label><label>Message<textarea name="message" required maxlength="2000" rows="5"></textarea></label><button class="button primary" type="submit">Send message</button><p id="form-status" role="status"></p></form></div></section>
+  </main>
+  <footer class="footer"><div class="container"><span>© <span id="year"></span> Your Name</span><a href="mailto:you@example.com">you@example.com</a></div></footer>
+  <script src="/js/main.js"></script>
+</body>
+</html>

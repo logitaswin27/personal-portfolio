@@ -1,0 +1,17 @@
+{
+  "name": "personal-portfolio",
+  "version": "1.0.0",
+  "description": "Full-stack personal portfolio with HTML, CSS, Node.js, MongoDB, and Netlify Functions.",
+  "private": true,
+  "scripts": {
+    "dev": "netlify dev",
+    "start": "netlify dev"
+  },
+  "dependencies": {
+    "@netlify/functions": "^3.0.0",
+    "mongodb": "^6.9.0"
+  },
+  "devDependencies": {
+    "netlify-cli": "^17.36.1"
+  }
+}
